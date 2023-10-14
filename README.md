@@ -12,7 +12,7 @@ Dice types must be specified in the following formats:\
 2d12-2\
 \
 If rolling more than one dice type they must be separated\
-by a comma.\
+by a comma.
 
 # Examples
 Roll 1d4\
