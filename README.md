@@ -1,5 +1,4 @@
 # DnD Dice roller
-\
 A script to simulate dice rolls with any combination\
 combination of dice types and both positive and\
 negative modifiers.
