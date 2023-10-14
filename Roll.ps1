@@ -57,8 +57,6 @@ $Modifier = 0
 
 foreach ( $Die in $Dice )
 {
-    "Rolling $Die"
-
     #Check if the Die has a positive modifier
     if ($Die -like "*+*") {
        #It does so we grab the modifier and strip it from the Die
