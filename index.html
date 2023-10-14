@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" /><link rel="canonical" href="https://example.com/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" /><link rel="canonical" href="https://celebane.github.io/Roll/" />
       <link rel="shortcut icon" href="img/favicon.ico" />
-    <title>MkLorum</title>
+    <title>Roll</title>
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -14,7 +14,7 @@
         // Current page data
         var mkdocs_page_name = "Home";
         var mkdocs_page_input_path = "index.md";
-        var mkdocs_page_url = "/";
+        var mkdocs_page_url = "/Roll/";
       </script>
     
     <!--[if lt IE 9]>
@@ -30,7 +30,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href="." class="icon icon-home"> MkLorum
+          <a href="." class="icon icon-home"> Roll
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -42,9 +42,9 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href=".">Home</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#commands">Commands</a>
+    <li class="toctree-l2"><a class="reference internal" href="#parameters">Parameters</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#project-layout">Project layout</a>
+    <li class="toctree-l2"><a class="reference internal" href="#examples">Examples</a>
     </li>
     </ul>
                 </li>
@@ -60,7 +60,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href=".">MkLorum</a>
+          <a href=".">Roll</a>
         
       </nav>
       <div class="wy-nav-content">
@@ -69,6 +69,7 @@
     <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
       <li class="breadcrumb-item active">Home</li>
     <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/celebane/Roll/edit/master/docs/index.md" class="icon icon-github"> Edit on GitHub</a>
     </li>
   </ul>
   <hr/>
@@ -76,21 +77,32 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="mklorum">MkLorum</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+                <h1 id="dnd-dice-roller">DnD Dice Roller</h1>
+<p>A powershell script to simulate dice rolls with any combination\
+combination of dice types and both positive and\
+negative modifiers.</p>
+<h2 id="parameters">Parameters</h2>
+<p>Any Dice type can specified as a parameter.\
+Dice types must be specified in the following formats:\
+1d4\
+1d6+1\
+2d12-2\
+\
+If rolling more than one dice type they must be separated\
+by a comma.</p>
+<h2 id="examples">Examples</h2>
+<p>Roll 1d4\
+Rolls a 4 sided die. Returning the valuw of thr roll.\
+\
+Roll 1d6+1\
+Rolls a 6 sided die and adds +1 to the roll and returns that value.\
+\
+Roll 2d6+2, 1d8-4, 1d12\
+Rolls two 6 sided dice adding 2 to the roll, one 8 sided die\
+subtracting 4 from the roll and finally one 12 sided die and\
+returns the total sum of all dice rolled.\
+\
+Requires the <a href="https://github.com/HeyItsGilbert/RPGDice">RPGDice</a> module by Gilbert Sanchez.</p>
               
             </div>
           </div><footer>
@@ -117,6 +129,10 @@ docs/
   <div class="rst-versions" role="note" aria-label="Versions">
   <span class="rst-current-version" data-toggle="rst-current-version">
     
+        <span>
+          <a href="https://github.com/celebane/Roll" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
     
     
       <span><a href="about/" style="color: #fcfcfc">Next &raquo;</a></span>
@@ -139,5 +155,5 @@ docs/
 
 <!--
 MkDocs version : 1.5.3
-Build Date UTC : 2023-10-14 16:37:23.321082+00:00
+Build Date UTC : 2023-10-14 16:57:53.476125+00:00
 -->
