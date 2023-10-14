@@ -38,6 +38,9 @@ https://github.com/HeyItsGilbert/RPGDice
 
 .COMPONENT
 RPGDice
+
+.LINK
+https://github.com/Celebane/Roll
 #>
 
 
