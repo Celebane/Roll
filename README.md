@@ -1,10 +1,11 @@
-DnD Dice roller\
+# DnD Dice roller\
 \
 A script to simulate dice rolls with any combination\
 combination of dice types and both positive and\
 negative modifiers.\
 \
-Any Dice type can specified.\
+# Parameters
+Any Dice type can specified as a parameter.\
 Dice types must be specified in the following formats:\
 1d4\
 1d6+1\
@@ -13,7 +14,7 @@ Dice types must be specified in the following formats:\
 If rolling more than one dice type they must be separated\
 by a comma.\
 \
-Examples\
+# Examples\
 Roll 1d4\
 Rolls a 4 sided die. Returning the valuw of thr roll.\
 \
