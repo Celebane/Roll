@@ -1,12 +1,10 @@
 <#
 .SYNOPSIS
 DnD Dice roller
-
 .DESCRIPTION
 A script to simulate dice rolls with any combination
 combination of dice types and both positive and 
 negative modifiers.
-
 .PARAMETER Dice
 Any Dice type can specified.
 Dice types must be specified in the following formats:
@@ -17,33 +15,21 @@ Dice types must be specified in the following formats:
 
 If rolling more than one dice type they must be separated
 by a comma.
-
 .EXAMPLE
 PS> ./Roll 1d4
-
-
 .EXAMPLE
 PS> ./Roll 1d6+1
-
-
 .EXAMPLE
 PS> ./Roll 2d6+2, 1d8-4, 1d12
-
-
 .NOTES
 Requires the RPGDice module by Gilbert Sanchez.
 https://github.com/HeyItsGilbert/RPGDice
-
 .COMPONENT
-RPGDice
-
+New-Dice
+New-DiceRoll
 .LINK
 https://github.com/Celebane/Roll
 #>
-
-
-
-
 param (
     [Parameter(mandatory=$true)][string[]]$Dice=@()
 )
