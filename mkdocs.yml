@@ -1,0 +1,7 @@
+site_name: Roll
+site_url: https://celebane.github.io/Roll
+repo_url: https://github.com/celebane/Roll
+nav:
+  - Home: index.md
+  - About: about.md
+theme: readthedocs
