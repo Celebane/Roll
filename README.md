@@ -6,7 +6,6 @@ negative modifiers.
 
 Any Dice type can specified.
 Dice types must be specified in the following formats:
-
 1d4
 1d6+1
 2d12-2
